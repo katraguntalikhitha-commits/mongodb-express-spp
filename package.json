@@ -1,16 +1,16 @@
-
 {
-  "name": "mongodb-express-app",
+  "name": "books-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "private": true,
   "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "node --watch app.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "dependencies": {
-    "express": "^5.2.1",
-    "mongodb": "^7.6.0"
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2",
+    "morgan": "^1.12.1"
   }
 }
